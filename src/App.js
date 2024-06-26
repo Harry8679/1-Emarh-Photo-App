@@ -15,6 +15,7 @@ const App = () => {
 
   const [blur, setBlur] = useState({
     name: 'Blur',
+    property: 'blur',
     value: 0,
     range: {
       min: 0,
