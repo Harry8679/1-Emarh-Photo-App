@@ -21,7 +21,7 @@ const App = () => {
       min: 0,
       max: 20
     },
-    unit: 'deg'
+    unit: 'px'
   });
   return (
     <div>
