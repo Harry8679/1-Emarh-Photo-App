@@ -24,6 +24,17 @@ const App = () => {
     unit: '%'
   });
 
+  const [saturation, setSaturation] = useState({
+    name: 'Saturation',
+    property: 'saturate',
+    value: 100,
+    range: {
+      min: 0,
+      max: 200
+    },
+    unit: '%'
+  });
+
   const [hueRotate, setHueRotate] = useState({
     name: 'Hue Rotate',
     property: 'hue-rotate',
