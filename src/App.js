@@ -35,6 +35,17 @@ const App = () => {
     unit: '%'
   });
 
+  const [grayscale, setGrayscale] = useState({
+    name: 'Grayscale',
+    property: 'grayscale',
+    value: 0,
+    range: {
+      min: 0,
+      max: 100
+    },
+    unit: '%'
+  });
+
   const [hueRotate, setHueRotate] = useState({
     name: 'Hue Rotate',
     property: 'hue-rotate',
