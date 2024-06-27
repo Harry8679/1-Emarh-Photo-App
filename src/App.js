@@ -14,8 +14,8 @@ const App = () => {
   });
 
   const [contrast, setContrast] = useState({
-    name: 'Brightness',
-    property: 'brightness',
+    name: 'Contrast',
+    property: 'contrast',
     value: 100,
     range: {
       min: 0,
