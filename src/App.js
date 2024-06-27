@@ -2,6 +2,17 @@ import React, { useState } from 'react';
 
 
 const App = () => {
+  const [brightness, setBrightness] = useState({
+    name: 'Brightness',
+    property: 'brightness',
+    value: 100,
+    range: {
+      min: 0,
+      max: 200
+    },
+    unit: '%'
+  });
+
   const [hueRotate, setHueRotate] = useState({
     name: 'Hue Rotate',
     property: 'hue-rotate',
