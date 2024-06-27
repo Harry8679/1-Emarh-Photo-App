@@ -82,6 +82,7 @@ const App = () => {
   return (
     <div>
       <img src={harry} alt='' />
+      <input />
     </div>
   );
 }
