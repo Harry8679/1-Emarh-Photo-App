@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import harry from './8888.jpg';
 
 
 const App = () => {
@@ -80,7 +81,7 @@ const App = () => {
   });
   return (
     <div>
-      App
+      <img src={harry} alt='' />
     </div>
   );
 }
