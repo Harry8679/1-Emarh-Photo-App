@@ -13,6 +13,17 @@ const App = () => {
     unit: '%'
   });
 
+  const [contrast, setContrast] = useState({
+    name: 'Brightness',
+    property: 'brightness',
+    value: 100,
+    range: {
+      min: 0,
+      max: 200
+    },
+    unit: '%'
+  });
+
   const [hueRotate, setHueRotate] = useState({
     name: 'Hue Rotate',
     property: 'hue-rotate',
