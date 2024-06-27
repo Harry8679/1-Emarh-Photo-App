@@ -46,6 +46,17 @@ const App = () => {
     unit: '%'
   });
 
+  const [sepia, setSepia] = useState({
+    name: 'Sepia',
+    property: 'sepia',
+    value: 100,
+    range: {
+      min: 0,
+      max: 100
+    },
+    unit: '%'
+  });
+
   const [hueRotate, setHueRotate] = useState({
     name: 'Hue Rotate',
     property: 'hue-rotate',
